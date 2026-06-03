@@ -10,7 +10,7 @@ function Contact() {
             <label className=" text-[14px] md:text-[16px] lg:text-[20px] font-ibm text-accent">
               EMAIL
             </label>
-            <p className="text-[12px] md:text-[14px] lg:text-[16px] font-inter">
+            <p className="text-[14px] md:text-[16px] lg:text-[16px] font-inter">
               clauderonaldpierre@gmail.com
             </p>
 
@@ -18,7 +18,7 @@ function Contact() {
               <label className="text-[14px] md:text-[16px] lg:text-[20px] font-ibm text-accent">
                 GITHUB
               </label>
-              <p className="text-[12px] md:text-[14px] lg:text-[16px] font-inter">
+              <p className="text-[14px] md:text-[16px] lg:text-[16px] font-inter">
                 https://github.com/shockwavebolt
               </p>
             </div>
@@ -27,7 +27,7 @@ function Contact() {
               <label className="text-[14px] md:text-[16px] lg:text-[20px] font-ibm text-accent">
                 LINKEDIN
               </label>
-              <p className="text-[12px] md:text-[14px] lg:text-[16px] font-inter">
+              <p className="text-[14px] md:text-[16px] lg:text-[16px] font-inter">
                 https://www.linkedin.com/in/clauderonaldpierre/
               </p>
             </div>

@@ -14,7 +14,7 @@ function About() {
             <label className=" text-[14px]  md:text-[16px] lg:text-[20px] font-ibm text-accent">
               NAME/TITLE
             </label>
-            <p className=" text-[12px] md:text-[14px] lg:text-[16px] font-inter">
+            <p className=" text-[14px] md:text-[16px] lg:text-[16px] font-inter">
               Claude Ronald Pierre, UI/UX Engineer
             </p>
           </div>
@@ -22,7 +22,7 @@ function About() {
             <label className=" text-[14px]  md:text-[16px] lg:text-[20px] font-ibm text-accent">
               EDUCATION
             </label>
-            <p className=" text-[12px] md:text-[14px] lg:text-[16px] font-inter">
+            <p className=" text-[14px] md:text-[16px] lg:text-[16px] font-inter">
               Attended Brooklyn College (2019-2023) for Multimedia Computing and
               later studied Design independently for 3 years.
             </p>
@@ -31,7 +31,7 @@ function About() {
             <label className=" text-[14px]  md:text-[16px] lg:text-[20px] font-ibm text-accent">
               STACK
             </label>
-            <p className=" text-[12px] md:text-[14px] lg:text-[16px] font-inter">
+            <p className=" text-[14px] md:text-[16px] lg:text-[16px] font-inter">
               Figma, HTML/CSS, JavaScript, React, Tailwind.
             </p>
           </div>
@@ -41,7 +41,7 @@ function About() {
           <label className=" text-[14px]  md:text-[16px] lg:text-[20px] font-ibm text-accent">
             PHILOSOPHY
           </label>
-          <p className=" text-[12px] md:text-[14px] lg:text-[16px] font-inter">
+          <p className=" text-[14px] md:text-[16px] lg:text-[16px] font-inter">
             Lorem ipsum dolor sit amet consectetur. Sit facilisi vitae venenatis
             neque nullam consectetur dui. Nulla viverra interdum sapien non
             mattis ipsum mauris et viverra. Varius.

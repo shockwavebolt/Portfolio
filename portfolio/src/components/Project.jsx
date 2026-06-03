@@ -17,7 +17,7 @@ const Project = forwardRef(function Project(
             {title}
           </label>
           {open && (
-            <p className="text-[12px] md:text-[14px] lg:text-[16px] font-inter">
+            <p className="text-[14px] md:text-[16px] lg:text-[16px] font-inter">
               {description}
             </p>
           )}
@@ -33,7 +33,7 @@ const Project = forwardRef(function Project(
             <label className="text-[14px] md:text-[16px] lg:text-[20px] font-ibm text-accent">
               STACK
             </label>
-            <p className="text-[12px] md:text-[14px] lg:text-[16px] font-inter">
+            <p className="text-[14px] md:text-[16px] lg:text-[16px] font-inter">
               {stack}
             </p>
           </div>
