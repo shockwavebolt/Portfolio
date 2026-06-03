@@ -1,7 +1,7 @@
 import { forwardRef } from "react";
 
 const Project = forwardRef(function Project(
-  { title, description, stack, open },
+  { title, description, stack, link, open },
   ref,
 ) {
   return (
@@ -37,11 +37,16 @@ const Project = forwardRef(function Project(
               {stack}
             </p>
           </div>
-          <div className="flex gap-2 items-center hover:text-accent transition-colors cursor-pointer">
-            <p className="font-ibm text-[14px] md:text-[16px] lg:text-[20px]">
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex gap-2 items-center hover:text-accent transition-colors"
+          >
+            <span className="font-ibm text-[14px] md:text-[16px] lg:text-[20px]">
               VIEW LIVE PROJECT
-            </p>
-            <button>
+            </span>
+            <span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="34"
@@ -68,8 +73,8 @@ const Project = forwardRef(function Project(
                   </clipPath>
                 </defs>
               </svg>
-            </button>
-          </div>
+            </span>
+          </a>
         </div>
       )}
     </div>

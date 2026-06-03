@@ -7,18 +7,21 @@ const projectsData = [
     description:
       "Lorem ipsum dolor sit amet consectetur. Fermentum sapien tortor in accumsan malesuada nunc mauris suspendisse. Morbi cras elit proin id turpis lectus erat lacus mauris.",
     stack: "Lorem ipsum dolor sit amet consectetur.",
+    link: "https://shockwavebolt.github.io/G-Bliss/",
   },
   {
     title: "TRACKER-M8/ PRODUCTIVITY TOOL(2025)",
     description:
       "Lorem ipsum dolor sit amet consectetur. Fermentum sapien tortor in accumsan malesuada nunc mauris suspendisse. Morbi cras elit proin id turpis lectus erat lacus mauris.",
     stack: "Lorem ipsum dolor sit amet consectetur.",
+    link: "https://shockwavebolt.github.io/M8-Project-Tracker/",
   },
   {
     title: "TYPEMATCH/DESIGN TOOL(2026)",
     description:
       "Lorem ipsum dolor sit amet consectetur. Fermentum sapien tortor in accumsan malesuada nunc mauris suspendisse. Morbi cras elit proin id turpis lectus erat lacus mauris.",
     stack: "Lorem ipsum dolor sit amet consectetur.",
+    link: "https://shockwavebolt.github.io/TypeMatch/",
   },
 ];
 
