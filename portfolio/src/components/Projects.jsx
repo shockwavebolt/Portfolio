@@ -1,7 +1,7 @@
 import Project from "./Project";
 import gBlissPreview from "../previews/gb.webm";
-import M8Preview from "../previews/m8.webm";
-import TMPreview from "../previews/tm.webm";
+import M8Preview from "../previews/M8.webm";
+import TMPreview from "../previews/TM.webm";
 
 const projectsData = [
   {
