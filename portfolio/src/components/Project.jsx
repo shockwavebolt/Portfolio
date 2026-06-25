@@ -1,6 +1,6 @@
-function Project({ title, description, stack, link }) {
+function Project({ title, description, previewVideo, stack, link }) {
   return (
-    <div className="col-span-full md:col-span-3 lg:col-span-4 w-full border-t border-solid border-secondary pt-8 grid grid-cols-subgrid">
+    <div className="col-span-full md:col-span-3 lg:col-span-4 w-full border-t border-solid border-secondary pt-8 gap-8 grid grid-cols-subgrid">
       <div className="col-span-full md:col-start-1 md:col-span-2 flex flex-col gap-8">
         <div className="flex flex-col gap-4">
           <label className="text-[14px] md:text-[16px] lg:text-[20px] font-ibm text-accent">
@@ -10,7 +10,17 @@ function Project({ title, description, stack, link }) {
             {description}
           </p>
         </div>
-        <div className="bg-gray-600 h-50 shadow-[-4px_4px_0_0_#273043]"></div>
+
+        <video
+          autoPlay
+          muted
+          loop
+          width="100%"
+          height="100%"
+          className="object-cover p-0.5 border-t  border-solid border-white shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]"
+        >
+          <source src={previewVideo} type="video/webm" />
+        </video>
       </div>
 
       <div className="col-span-full md:col-start-3 md:col-span-1 lg:col-span-2 flex flex-col gap-8">
@@ -61,6 +71,17 @@ function Project({ title, description, stack, link }) {
           </span>
         </a>
       </div>
+      {/* <video
+        autoPlay
+        muted
+        loop
+        width="100%"
+        height="100%"
+        className="object-cover col-span-3 p-0.5 border-t-2  border-solid border-white shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]
+"
+      >
+        <source src={previewVideo} type="video/webm" />
+      </video> */}
     </div>
   );
 }

@@ -1,4 +1,7 @@
 import Project from "./Project";
+import gBlissPreview from "../previews/gb.webm";
+import M8Preview from "../previews/m8.webm";
+import TMPreview from "../previews/tm.webm";
 
 const projectsData = [
   {
@@ -6,6 +9,7 @@ const projectsData = [
     description:
       "Lorem ipsum dolor sit amet consectetur. Fermentum sapien tortor in accumsan malesuada nunc mauris suspendisse. Morbi cras elit proin id turpis lectus erat lacus mauris.",
     stack: "Lorem ipsum dolor sit amet consectetur.",
+    previewVideo: gBlissPreview,
     link: "https://shockwavebolt.github.io/G-Bliss/",
   },
   {
@@ -13,6 +17,7 @@ const projectsData = [
     description:
       "Lorem ipsum dolor sit amet consectetur. Fermentum sapien tortor in accumsan malesuada nunc mauris suspendisse. Morbi cras elit proin id turpis lectus erat lacus mauris.",
     stack: "Lorem ipsum dolor sit amet consectetur.",
+    previewVideo: M8Preview,
     link: "https://shockwavebolt.github.io/M8-Project-Tracker/",
   },
   {
@@ -20,6 +25,7 @@ const projectsData = [
     description:
       "Lorem ipsum dolor sit amet consectetur. Fermentum sapien tortor in accumsan malesuada nunc mauris suspendisse. Morbi cras elit proin id turpis lectus erat lacus mauris.",
     stack: "Lorem ipsum dolor sit amet consectetur.",
+    previewVideo: TMPreview,
     link: "https://shockwavebolt.github.io/TypeMatch/",
   },
 ];
