@@ -1,6 +1,6 @@
 function Project({ title, description, previewVideo, stack, link }) {
   return (
-    <div className="col-span-full md:col-span-3 lg:col-span-4 w-full border-t border-solid border-secondary pt-8 gap-8 grid grid-cols-subgrid">
+    <div className=" my-16 col-span-full md:col-span-3 lg:col-span-4 w-full border-t-2 border-solid border-inactive pt-8 gap-4 grid grid-cols-subgrid  gap-y-16 md:gap-x-6 lg:gap-x-16">
       <div className="col-span-full md:col-start-1 md:col-span-2 flex flex-col gap-8">
         <div className="flex flex-col gap-4">
           <label className="text-[14px] md:text-[16px] lg:text-[20px] font-ibm text-accent">
@@ -11,7 +11,7 @@ function Project({ title, description, previewVideo, stack, link }) {
           </p>
         </div>
 
-        <video
+        {/* <video
           autoPlay
           muted
           loop
@@ -20,11 +20,11 @@ function Project({ title, description, previewVideo, stack, link }) {
           className="object-cover p-0.5 border-t  border-solid border-white shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]"
         >
           <source src={previewVideo} type="video/webm" />
-        </video>
+        </video> */}
       </div>
 
-      <div className="col-span-full md:col-start-3 md:col-span-1 lg:col-span-2 flex flex-col gap-8">
-        <div className="flex flex-col mt-8 gap-4 md:mt-0">
+      <div className="col-span-full md:col-start-3 md:order-0  md:col-span-1 lg:col-span-2 flex flex-col gap-8">
+        <div className="flex flex-col  gap-4 md:mt-0">
           <label className="text-[14px] md:text-[16px] lg:text-[20px] font-ibm text-accent">
             STACK
           </label>
@@ -36,7 +36,7 @@ function Project({ title, description, previewVideo, stack, link }) {
           href={link}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex gap-2 items-center hover:text-accent transition-colors"
+          className="flex gap-2 items-center self-start hover:text-accent transition-colors"
         >
           <span className="font-ibm text-[14px] md:text-[16px] lg:text-[20px]">
             VIEW LIVE PROJECT
@@ -71,17 +71,17 @@ function Project({ title, description, previewVideo, stack, link }) {
           </span>
         </a>
       </div>
-      {/* <video
+      <video
         autoPlay
         muted
         loop
         width="100%"
         height="100%"
-        className="object-cover col-span-3 p-0.5 border-t-2  border-solid border-white shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]
+        className="md:mt-16 object-cover col-span-full md:col-span-3  p-0.5 border-t-2  border-solid border-white shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]
 "
       >
         <source src={previewVideo} type="video/webm" />
-      </video> */}
+      </video>
     </div>
   );
 }
