@@ -33,7 +33,7 @@ function Contact() {
             </p>
           </div>
         </div>
-        <p className="text-[14px] md:text-[16px] lg:text-[20px] font-ibm">
+        <p className="text-[14px] md:text-[16px] lg:text-[20px] font-ibm text-center md:text-left">
           MADE WITH <span>&#10084;</span>. THE BRONX, NYC.
         </p>
       </div>
