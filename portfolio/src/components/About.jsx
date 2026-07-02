@@ -14,25 +14,26 @@ function About() {
             <label className=" text-[14px]  md:text-[16px] lg:text-[20px] font-ibm text-accent">
               NAME/TITLE
             </label>
-            <p className=" text-[14px] md:text-[16px] lg:text-[16px] font-inter">
-              Claude Ronald Pierre, UI/UX Engineer
+            <p className=" text-[14px] md:text-[16px] lg:text-[18px] font-inter">
+              Claude Ronald Pierre, Jr. Product Engineer.
             </p>
           </div>
           <div className="flex flex-col gap-3 ">
             <label className=" text-[14px]  md:text-[16px] lg:text-[20px] font-ibm text-accent">
               EDUCATION
             </label>
-            <p className=" text-[14px] md:text-[16px] lg:text-[16px] font-inter">
-              Attended Brooklyn College (2019-2023) for Multimedia Computing and
-              later studied Design independently for 3 years.
+            <p className=" text-[14px] md:text-[16px] lg:text-[18px] leading-relaxed font-inter">
+              Attended CUNY Brooklyn College (2019-2023) for Multimedia
+              Computing and later studied Design and Frontend Engineering
+              independently for 3 years.
             </p>
           </div>
           <div className="flex flex-col gap-3 ">
             <label className=" text-[14px]  md:text-[16px] lg:text-[20px] font-ibm text-accent">
               STACK
             </label>
-            <p className=" text-[14px] md:text-[16px] lg:text-[16px] font-inter">
-              Figma, HTML/CSS, JavaScript, React, Tailwind.
+            <p className=" text-[14px] md:text-[16px] lg:text-[18px] leading-relaxed font-inter">
+              React, HTML/CSS, JavaScript, TailwindCSS, Figma.
             </p>
           </div>
 
@@ -40,9 +41,8 @@ function About() {
             <label className=" text-[14px]  md:text-[16px] lg:text-[20px] font-ibm text-accent">
               STATUS
             </label>
-            <p className=" text-[14px] md:text-[16px] lg:text-[16px] font-inter">
-              Open to work opportunities, currently seeking a full-time position
-              in UI/UX design and front-end development.
+            <p className=" text-[14px] md:text-[16px] lg:text-[18px]  font-inter">
+              Open to work.
             </p>
           </div>
         </div>

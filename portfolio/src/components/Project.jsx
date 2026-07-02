@@ -1,4 +1,4 @@
-function Project({ title, description, previewVideo, stack, link }) {
+function Project({ id, title, description, previewVideo, stack, link }) {
   return (
     <div className=" my-16 col-span-full md:col-span-3 lg:col-span-4 w-full border-t-2 border-solid border-inactive pt-8 gap-4 grid grid-cols-subgrid  gap-y-16 md:gap-x-6 lg:gap-x-16">
       <div className="col-span-full md:col-start-1 md:col-span-2 flex flex-col gap-8">
@@ -6,7 +6,7 @@ function Project({ title, description, previewVideo, stack, link }) {
           <label className="text-[14px] md:text-[16px] lg:text-[20px] font-ibm text-accent">
             {title}
           </label>
-          <p className="text-[14px] md:text-[16px] lg:text-[16px] font-inter">
+          <p className="text-[14px] md:text-[16px] lg:text-[18px] leading-relaxed font-inter">
             {description}
           </p>
         </div>
@@ -28,7 +28,7 @@ function Project({ title, description, previewVideo, stack, link }) {
           <label className="text-[14px] md:text-[16px] lg:text-[20px] font-ibm text-accent">
             STACK
           </label>
-          <p className="text-[14px] md:text-[16px] lg:text-[16px] font-inter">
+          <p className="text-[14px] md:text-[16px] lg:text-[18px] leading-relaxed font-inter">
             {stack}
           </p>
         </div>
@@ -77,8 +77,7 @@ function Project({ title, description, previewVideo, stack, link }) {
         loop
         width="100%"
         height="100%"
-        className="md:mt-16 object-cover col-span-full md:col-span-3  p-0.5 border-t-2  border-solid border-white shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]
-"
+        className={` object-cover col-span-full md:col-span-3  border-t-2  border-solid ${id === 1 ? "border-[#637E67]" : id === 2 ? "border-white" : id === 3 ? "border-white" : ""} shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]`}
       >
         <source src={previewVideo} type="video/webm" />
       </video>

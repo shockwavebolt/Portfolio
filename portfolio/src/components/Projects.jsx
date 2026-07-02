@@ -5,26 +5,29 @@ import TMPreview from "../previews/TM.webm";
 
 const projectsData = [
   {
+    id: 1,
     title: "G-BLISS/E-COMMERCE(2025)",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Fermentum sapien tortor in accumsan malesuada nunc mauris suspendisse. Morbi cras elit proin id turpis lectus erat lacus mauris.",
-    stack: "Lorem ipsum dolor sit amet consectetur.",
+      "A cannabis e-commerce experience with a minimal, modern design — built end-to-end with React and Supabase, from product discovery through checkout.",
+    stack: "Figma, React,TailwindCSS, Supabase.",
     previewVideo: gBlissPreview,
     link: "https://shockwavebolt.github.io/G-Bliss/",
   },
   {
-    title: "TRACKER-M8/ PRODUCTIVITY TOOL(2025)",
+    id: 2,
+    title: "TRACKER-M8/PRODUCTIVITY TOOL(2025)",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Fermentum sapien tortor in accumsan malesuada nunc mauris suspendisse. Morbi cras elit proin id turpis lectus erat lacus mauris.",
-    stack: "Lorem ipsum dolor sit amet consectetur.",
+      "A project tracker built for solo productive work — tracking progress and elapsed time across two moods, Mentos and Midnight.",
+    stack: "Figma, React, TailwindCSS.",
     previewVideo: M8Preview,
     link: "https://shockwavebolt.github.io/M8-Project-Tracker/",
   },
   {
+    id: 3,
     title: "TYPEMATCH/DESIGN TOOL(2026)",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Fermentum sapien tortor in accumsan malesuada nunc mauris suspendisse. Morbi cras elit proin id turpis lectus erat lacus mauris.",
-    stack: "Lorem ipsum dolor sit amet consectetur.",
+      "A typography tool powered by the Google Fonts API — compare and pair font families side by side to find the right match for your next project.",
+    stack: "Figma, HTML/CSS, TailwindCSS, JavaScript, Google Fonts API.",
     previewVideo: TMPreview,
     link: "https://shockwavebolt.github.io/TypeMatch/",
   },
@@ -37,7 +40,7 @@ function Projects() {
       className="mb-24 md:col-start-2 lg:col-start-3 md:col-span-3 lg:col-span-4 grid grid-cols-subgrid gap-y-16 md:gap-x-6 lg:gap-x-16"
     >
       {projectsData.map((project) => (
-        <Project key={project.title} {...project} />
+        <Project key={project.id} {...project} />
       ))}
     </div>
   );
