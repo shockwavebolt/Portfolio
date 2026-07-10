@@ -1,3 +1,5 @@
+import portrait from "../previews/P1.JPG";
+
 function About() {
   return (
     <>
@@ -6,7 +8,8 @@ function About() {
         className="mb-24 md:col-start-2 lg:col-start-3 md:col-span-3 lg:col-span-4 grid grid-cols-subgrid gap-y-16"
       >
         <div className="col-span-full md:col-start-1 md:col-span-2 order-1 md:order-0">
-          <div className="bg-gray-600 h-100 shadow-[-4px_4px_0_0_#273043]"></div>
+          {/* <div className="bg-gray-600 h-100 shadow-[-4px_4px_0_0_#273043]"></div> */}
+          <img alt="portrait" className=" border-t-2  border-solid border-white shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]" src={portrait} />
         </div>
 
         <div className="col-span-full md:col-start-3 md:col-span-1 lg:col-span-2 order-2 md:order-0 flex flex-col gap-8">
@@ -15,7 +18,7 @@ function About() {
               NAME/TITLE
             </label>
             <p className=" text-[14px] md:text-[16px] lg:text-[18px] font-inter">
-              Claude Ronald Pierre, Jr. Product Engineer.
+              Claude Ronald Pierre, Product Engineer.
             </p>
           </div>
           <div className="flex flex-col gap-3 ">
@@ -24,7 +27,7 @@ function About() {
             </label>
             <p className=" text-[14px] md:text-[16px] lg:text-[18px] leading-relaxed font-inter">
               Attended CUNY Brooklyn College (2019-2023) for Multimedia
-              Computing and later studied Design and Frontend Engineering
+              Computing and later studied UI/UX Design and Frontend Engineering
               independently for 3 years.
             </p>
           </div>

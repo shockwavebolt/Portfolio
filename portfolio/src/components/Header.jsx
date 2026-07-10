@@ -5,7 +5,7 @@ function Header() {
         CLAUDE R. PIERRE
       </h1>
       <div className=" flex flex-col gap-4 md:gap-6 lg:gap-8 md:items-end md:text-right text-[14px] md:text-[16px] lg:text-[20px] font-ibm">
-        <p>Jr. Product Engineer.</p>
+        <p>Product Engineer.</p>
         <p>3 years of Design Experience.</p>
         <p>Still cooking.</p>
       </div>
