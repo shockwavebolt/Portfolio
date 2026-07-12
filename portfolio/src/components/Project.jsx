@@ -1,12 +1,12 @@
 function Project({ id, title, description, previewVideo, stack, link }) {
   return (
-    <div className=" my-16 col-span-full md:col-span-3 lg:col-span-4 w-full border-t-2 border-solid border-inactive pt-8 gap-4 grid grid-cols-subgrid  gap-y-8 md:gap-x-6 lg:gap-x-16">
-      <div className="col-span-full md:col-start-1 md:col-span-2 flex flex-col gap-8">
+    <div className="border-inactive col-span-full my-16 grid w-full grid-cols-subgrid gap-4 gap-y-8 border-t-2 border-solid pt-8 md:col-span-3 md:gap-x-6 lg:col-span-4 lg:gap-x-16">
+      <div className="col-span-full flex flex-col gap-8 md:col-span-2 md:col-start-1">
         <div className="flex flex-col gap-4">
-          <label className="text-[14px] md:text-[16px] lg:text-[20px] font-ibm text-accent">
+          <label className="font-ibm text-accent text-[14px] md:text-[16px] lg:text-[20px]">
             {title}
           </label>
-          <p className="text-[14px] md:text-[16px] lg:text-[18px] leading-relaxed font-inter">
+          <p className="font-inter text-[14px] leading-relaxed md:text-[16px] lg:text-[18px]">
             {description}
           </p>
         </div>
@@ -23,12 +23,12 @@ function Project({ id, title, description, previewVideo, stack, link }) {
         </video> */}
       </div>
 
-      <div className="col-span-full md:col-start-3 md:order-0  md:col-span-1 lg:col-span-2 flex flex-col gap-8">
-        <div className="flex flex-col  gap-4 md:mt-0">
-          <label className="text-[14px] md:text-[16px] lg:text-[20px] font-ibm text-accent">
+      <div className="col-span-full flex flex-col gap-8 md:order-0 md:col-span-1 md:col-start-3 lg:col-span-2">
+        <div className="flex flex-col gap-4 md:mt-0">
+          <label className="font-ibm text-accent text-[14px] md:text-[16px] lg:text-[20px]">
             STACK
           </label>
-          <p className="text-[14px] md:text-[16px] lg:text-[18px] leading-relaxed font-inter">
+          <p className="font-inter text-[14px] leading-relaxed md:text-[16px] lg:text-[18px]">
             {stack}
           </p>
         </div>
@@ -36,7 +36,7 @@ function Project({ id, title, description, previewVideo, stack, link }) {
           href={link}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex gap-2 items-center self-start hover:text-accent transition-colors"
+          className="hover:text-accent flex items-center gap-2 self-start transition-colors"
         >
           <span className="font-ibm text-[14px] md:text-[16px] lg:text-[20px]">
             VIEW LIVE PROJECT
@@ -77,7 +77,7 @@ function Project({ id, title, description, previewVideo, stack, link }) {
         loop
         width="100%"
         height="100%"
-        className={` object-cover col-span-full md:col-span-3  border-t-2  border-solid ${id === 1 ? "border-[#637E67]" : id === 2 ? "border-white" : id === 3 ? "border-white" : ""} shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]`}
+        className={`col-span-full border-t-2 border-solid object-cover md:col-span-3 ${id === 1 ? "border-[#637E67]" : id === 2 ? "border-white" : id === 3 ? "border-white" : ""} shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]`}
       >
         <source src={previewVideo} type="video/webm" />
       </video>

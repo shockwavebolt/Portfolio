@@ -5,49 +5,49 @@ function About() {
     <>
       <div
         id="about"
-        className="my-24 md:col-start-2 lg:col-start-3 md:col-span-3 lg:col-span-4 grid grid-cols-subgrid gap-y-16"
+        className="my-24 grid grid-cols-subgrid gap-y-16 md:col-span-3 md:col-start-2 lg:col-span-4 lg:col-start-3"
       >
-        <div className="w-60 mx-auto md:mx-0   md:w-auto md:col-start-1 md:col-span-2 order-1 md:order-0">
+        <div className="order-1 mx-auto w-60 md:order-0 md:col-span-2 md:col-start-1 md:mx-0 md:w-auto">
           <img
             alt="portrait"
-            className=" border-t-2  border-solid border-white shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]"
+            className="border-t-2 border-solid border-white shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]"
             src={portrait}
           />
         </div>
 
-        <div className="col-span-full md:col-start-3 md:col-span-1 lg:col-span-2 order-2 md:order-0 flex flex-col gap-8">
-          <div className="flex flex-col gap-3 ">
-            <label className=" text-[14px]  md:text-[16px] lg:text-[20px] font-ibm text-accent">
+        <div className="order-2 col-span-full flex flex-col gap-8 md:order-0 md:col-span-1 md:col-start-3 lg:col-span-2">
+          <div className="flex flex-col gap-3">
+            <label className="font-ibm text-accent text-[14px] md:text-[16px] lg:text-[20px]">
               NAME/TITLE
             </label>
-            <p className=" text-[14px] md:text-[16px] lg:text-[18px] font-inter">
+            <p className="font-inter text-[14px] md:text-[16px] lg:text-[18px]">
               Claude Ronald Pierre, Product Engineer.
             </p>
           </div>
-          <div className="flex flex-col gap-3 ">
-            <label className=" text-[14px]  md:text-[16px] lg:text-[20px] font-ibm text-accent">
+          <div className="flex flex-col gap-3">
+            <label className="font-ibm text-accent text-[14px] md:text-[16px] lg:text-[20px]">
               EDUCATION
             </label>
-            <p className=" text-[14px] md:text-[16px] lg:text-[18px] leading-relaxed font-inter">
+            <p className="font-inter text-[14px] leading-relaxed md:text-[16px] lg:text-[18px]">
               Attended CUNY Brooklyn College (2019-2023) for Multimedia
               Computing and later studied UI/UX Design and Frontend Engineering
               independently for 3 years.
             </p>
           </div>
-          <div className="flex flex-col gap-3 ">
-            <label className=" text-[14px]  md:text-[16px] lg:text-[20px] font-ibm text-accent">
+          <div className="flex flex-col gap-3">
+            <label className="font-ibm text-accent text-[14px] md:text-[16px] lg:text-[20px]">
               STACK
             </label>
-            <p className=" text-[14px] md:text-[16px] lg:text-[18px] leading-relaxed font-inter">
+            <p className="font-inter text-[14px] leading-relaxed md:text-[16px] lg:text-[18px]">
               React, HTML/CSS, JavaScript, TailwindCSS, Figma.
             </p>
           </div>
 
-          <div className="flex flex-col gap-3 ">
-            <label className=" text-[14px]  md:text-[16px] lg:text-[20px] font-ibm text-accent">
+          <div className="flex flex-col gap-3">
+            <label className="font-ibm text-accent text-[14px] md:text-[16px] lg:text-[20px]">
               STATUS
             </label>
-            <p className=" text-[14px] md:text-[16px] lg:text-[18px]  font-inter">
+            <p className="font-inter text-[14px] md:text-[16px] lg:text-[18px]">
               Open to work.
             </p>
           </div>

@@ -36,7 +36,7 @@ function Nav() {
     }`;
 
   return (
-    <div className="fixed bottom-0 inset-x-0 flex flex-row justify-center items-center gap-8 bg-primary py-4 z-50 col-start-1 font-ibm text-[14px] md:sticky md:inset-auto md:top-8 md:flex-col md:justify-start md:items-start md:gap-4 md:pt-8 md:pb-0 md:bg-transparent md:text-[16px] md:self-start lg:text-[20px]">
+    <div className="bg-primary font-ibm fixed inset-x-0 bottom-0 z-50 col-start-1 flex flex-row items-center justify-center gap-8 py-4 text-[14px] md:sticky md:inset-auto md:top-8 md:flex-col md:items-start md:justify-start md:gap-4 md:self-start md:bg-transparent md:pt-8 md:pb-0 md:text-[16px] lg:text-[20px]">
       <nav
         className={navClass("about")}
         onClick={() => scrollToSection("about")}

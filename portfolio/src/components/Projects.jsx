@@ -37,7 +37,7 @@ function Projects() {
   return (
     <div
       id="projects"
-      className="mb-24 md:col-start-2 lg:col-start-3 md:col-span-3 lg:col-span-4 grid grid-cols-subgrid gap-y-16 md:gap-x-6 lg:gap-x-16"
+      className="mb-24 grid grid-cols-subgrid gap-y-16 md:col-span-3 md:col-start-2 md:gap-x-6 lg:col-span-4 lg:col-start-3 lg:gap-x-16"
     >
       {projectsData.map((project) => (
         <Project key={project.id} {...project} />

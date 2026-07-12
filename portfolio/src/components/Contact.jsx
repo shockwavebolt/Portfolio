@@ -2,38 +2,51 @@ function Contact() {
   return (
     <div
       id="contact"
-      className=" h-screen md:col-start-2 lg:col-start-3 md:col-span-3 lg:col-span-4"
+      className="h-screen md:col-span-3 md:col-start-2 lg:col-span-4 lg:col-start-3"
     >
       <div className="flex flex-col gap-32">
-        <div className="flex flex-col gap-8 ">
+        <div className="flex flex-col gap-8">
           <div className="flex flex-col gap-4">
-            <label className=" text-[14px] md:text-[16px] lg:text-[20px] font-ibm text-accent">
+            <label className="font-ibm text-accent text-[14px] md:text-[16px] lg:text-[20px]">
               EMAIL
             </label>
-            <p className="text-[14px] md:text-[16px] lg:text-[18px] font-inter">
+            <a
+              href="mailto:clauderonaldpierre@gmail.com"
+              className="font-inter text-[14px] hover:text-accent md:text-[16px] lg:text-[18px]"
+            >
               clauderonaldpierre@gmail.com
-            </p>
+            </a>
           </div>
 
           <div className="flex flex-col gap-4">
-            <label className="text-[14px] md:text-[16px] lg:text-[20px] font-ibm text-accent">
+            <label className="font-ibm text-accent text-[14px] md:text-[16px] lg:text-[20px]">
               GITHUB
             </label>
-            <p className="text-[14px] md:text-[16px] lg:text-[18px] font-inter">
+            <a
+              href="https://github.com/shockwavebolt"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-inter text-[14px] hover:text-accent md:text-[16px] lg:text-[18px]"
+            >
               https://github.com/shockwavebolt
-            </p>
+            </a>
           </div>
 
           <div className="flex flex-col gap-4">
-            <label className="text-[14px] md:text-[16px] lg:text-[20px] font-ibm text-accent">
+            <label className="font-ibm text-accent text-[14px] md:text-[16px] lg:text-[20px]">
               LINKEDIN
             </label>
-            <p className="text-[14px] md:text-[16px] lg:text-[18px] font-inter">
+            <a
+              href="https://www.linkedin.com/in/clauderonaldpierre/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-inter text-[14px] hover:text-accent md:text-[16px] lg:text-[18px]"
+            >
               https://www.linkedin.com/in/clauderonaldpierre/
-            </p>
+            </a>
           </div>
         </div>
-        <p className="text-[14px] md:text-[16px] lg:text-[20px] font-ibm text-center md:text-left">
+        <p className="font-ibm text-center text-[14px] md:text-left md:text-[16px] lg:text-[20px]">
           MADE WITH <span className="text-accent">&#10084;</span>. THE BRONX,
           NYC.
         </p>

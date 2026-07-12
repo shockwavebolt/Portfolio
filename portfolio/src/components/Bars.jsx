@@ -1,12 +1,12 @@
 function Bars() {
   return (
-    <div className="md:col-start-2 lg:col-start-3 md:col-span-3 h-62.5 md:h-100 lg:h-125 flex justify-center md:justify-start gap-2 md:gap-4 mb-24">
-      <div className="w-9.5 md:w-[67.2px] lg:w-21 bg-accent h-full shadow-[-4px_2px_0_0_#273043] md:shadow-[-8px_4px_0_0_#273043]"></div>
-      <div className="w-9.5 md:w-[67.2px] lg:w-21 bg-accent h-full shadow-[-4px_2px_0_0_#273043] md:shadow-[-8px_4px_0_0_#273043]"></div>
-      <div className="w-9.5 md:w-[67.2px] lg:w-21 bg-accent h-full shadow-[-4px_2px_0_0_#273043] md:shadow-[-8px_4px_0_0_#273043]"></div>
-      <div className="w-9.5 md:w-[67.2px] lg:w-21 bg-accent h-full shadow-[-4px_2px_0_0_#273043] md:shadow-[-8px_4px_0_0_#273043]"></div>
-      <div className="w-9.5 md:w-[67.2px] lg:w-21 bg-accent h-full shadow-[-4px_2px_0_0_#273043] md:shadow-[-8px_4px_0_0_#273043]"></div>
-      <div className="w-9.5 md:w-[67.2px] lg:w-21 bg-accent h-full shadow-[-4px_2px_0_0_#273043] md:shadow-[-8px_4px_0_0_#273043]"></div>
+    <div className="mb-24 flex h-62.5 justify-center gap-2 md:col-span-3 md:col-start-2 md:h-100 md:justify-start md:gap-4 lg:col-start-3 lg:h-125">
+      <div className="bg-accent h-full w-9.5 shadow-[-4px_2px_0_0_#273043] md:w-[67.2px] md:shadow-[-8px_4px_0_0_#273043] lg:w-21"></div>
+      <div className="bg-accent h-full w-9.5 shadow-[-4px_2px_0_0_#273043] md:w-[67.2px] md:shadow-[-8px_4px_0_0_#273043] lg:w-21"></div>
+      <div className="bg-accent h-full w-9.5 shadow-[-4px_2px_0_0_#273043] md:w-[67.2px] md:shadow-[-8px_4px_0_0_#273043] lg:w-21"></div>
+      <div className="bg-accent h-full w-9.5 shadow-[-4px_2px_0_0_#273043] md:w-[67.2px] md:shadow-[-8px_4px_0_0_#273043] lg:w-21"></div>
+      <div className="bg-accent h-full w-9.5 shadow-[-4px_2px_0_0_#273043] md:w-[67.2px] md:shadow-[-8px_4px_0_0_#273043] lg:w-21"></div>
+      <div className="bg-accent h-full w-9.5 shadow-[-4px_2px_0_0_#273043] md:w-[67.2px] md:shadow-[-8px_4px_0_0_#273043] lg:w-21"></div>
     </div>
   );
 }
