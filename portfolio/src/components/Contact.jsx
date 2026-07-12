@@ -10,7 +10,7 @@ function Contact() {
             <label className=" text-[14px] md:text-[16px] lg:text-[20px] font-ibm text-accent">
               EMAIL
             </label>
-            <p className="text-[14px] md:text-[16px] lg:text-[16px] font-inter">
+            <p className="text-[14px] md:text-[16px] lg:text-[18px] font-inter">
               clauderonaldpierre@gmail.com
             </p>
           </div>
@@ -19,7 +19,7 @@ function Contact() {
             <label className="text-[14px] md:text-[16px] lg:text-[20px] font-ibm text-accent">
               GITHUB
             </label>
-            <p className="text-[14px] md:text-[16px] lg:text-[16px] font-inter">
+            <p className="text-[14px] md:text-[16px] lg:text-[18px] font-inter">
               https://github.com/shockwavebolt
             </p>
           </div>
@@ -28,13 +28,14 @@ function Contact() {
             <label className="text-[14px] md:text-[16px] lg:text-[20px] font-ibm text-accent">
               LINKEDIN
             </label>
-            <p className="text-[14px] md:text-[16px] lg:text-[16px] font-inter">
+            <p className="text-[14px] md:text-[16px] lg:text-[18px] font-inter">
               https://www.linkedin.com/in/clauderonaldpierre/
             </p>
           </div>
         </div>
         <p className="text-[14px] md:text-[16px] lg:text-[20px] font-ibm text-center md:text-left">
-          MADE WITH <span>&#10084;</span>. THE BRONX, NYC.
+          MADE WITH <span className="text-accent">&#10084;</span>. THE BRONX,
+          NYC.
         </p>
       </div>
     </div>

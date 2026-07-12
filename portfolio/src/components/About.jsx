@@ -1,15 +1,18 @@
-import portrait from "../previews/P1.JPG";
+import portrait from "../media/P1.JPG";
 
 function About() {
   return (
     <>
       <div
         id="about"
-        className="mb-24 md:col-start-2 lg:col-start-3 md:col-span-3 lg:col-span-4 grid grid-cols-subgrid gap-y-16"
+        className="my-24 md:col-start-2 lg:col-start-3 md:col-span-3 lg:col-span-4 grid grid-cols-subgrid gap-y-16"
       >
-        <div className="col-span-full md:col-start-1 md:col-span-2 order-1 md:order-0">
-          {/* <div className="bg-gray-600 h-100 shadow-[-4px_4px_0_0_#273043]"></div> */}
-          <img alt="portrait" className=" border-t-2  border-solid border-white shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]" src={portrait} />
+        <div className="w-60 mx-auto md:mx-0   md:w-auto md:col-start-1 md:col-span-2 order-1 md:order-0">
+          <img
+            alt="portrait"
+            className=" border-t-2  border-solid border-white shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]"
+            src={portrait}
+          />
         </div>
 
         <div className="col-span-full md:col-start-3 md:col-span-1 lg:col-span-2 order-2 md:order-0 flex flex-col gap-8">

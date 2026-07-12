@@ -1,6 +1,6 @@
 function Project({ id, title, description, previewVideo, stack, link }) {
   return (
-    <div className=" my-16 col-span-full md:col-span-3 lg:col-span-4 w-full border-t-2 border-solid border-inactive pt-8 gap-4 grid grid-cols-subgrid  gap-y-16 md:gap-x-6 lg:gap-x-16">
+    <div className=" my-16 col-span-full md:col-span-3 lg:col-span-4 w-full border-t-2 border-solid border-inactive pt-8 gap-4 grid grid-cols-subgrid  gap-y-8 md:gap-x-6 lg:gap-x-16">
       <div className="col-span-full md:col-start-1 md:col-span-2 flex flex-col gap-8">
         <div className="flex flex-col gap-4">
           <label className="text-[14px] md:text-[16px] lg:text-[20px] font-ibm text-accent">

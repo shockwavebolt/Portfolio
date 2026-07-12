@@ -1,7 +1,7 @@
 import Project from "./Project";
-import gBlissPreview from "../previews/gb.webm";
-import M8Preview from "../previews/M8.webm";
-import TMPreview from "../previews/TM.webm";
+import gBlissPreview from "../media/gb.webm";
+import M8Preview from "../media/M8.webm";
+import TMPreview from "../media/TM.webm";
 
 const projectsData = [
   {
@@ -17,7 +17,7 @@ const projectsData = [
     id: 2,
     title: "TRACKER-M8/PRODUCTIVITY TOOL(2025)",
     description:
-      "A project tracker built for solo productive work — tracking progress and elapsed time across two moods, Mentos and Midnight.",
+      "A project tracker built for your solo productive work — tracking progress and elapsed time across two themes, Mentos and Midnight.",
     stack: "Figma, React, TailwindCSS.",
     previewVideo: M8Preview,
     link: "https://shockwavebolt.github.io/M8-Project-Tracker/",
