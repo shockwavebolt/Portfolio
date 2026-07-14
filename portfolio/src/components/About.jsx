@@ -21,7 +21,7 @@ function About() {
               NAME/TITLE
             </label>
             <p className="font-inter text-[14px] md:text-[16px] lg:text-[18px]">
-              Claude Ronald Pierre, Product Engineer.
+              Claude Ronald Pierre, UI/UX Engineer.
             </p>
           </div>
           <div className="flex flex-col gap-3">
