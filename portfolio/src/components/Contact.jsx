@@ -42,13 +42,16 @@ function Contact() {
               rel="noopener noreferrer"
               className="font-inter text-[14px] hover:text-accent md:text-[16px] lg:text-[18px]"
             >
-              https://www.linkedin.com/in/clauderonaldpierre/
+              https://www.linkedin.com/in/clauderonaldpierre
             </a>
           </div>
         </div>
         <p className="font-ibm text-center text-[14px] md:text-left md:text-[16px] lg:text-[20px]">
-          MADE WITH <span className="text-accent">&#10084;</span>. THE BRONX,
-          NYC.
+          MADE WITH{" "}
+          <span className="text-accent text-[16px] md:text-[18px] lg:text-[24px]">
+            &#10084;
+          </span>
+          . THE BRONX, NYC.
         </p>
       </div>
     </div>
