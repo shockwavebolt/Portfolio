@@ -25,14 +25,12 @@ function About() {
             </p>
           </div>
           <div className="flex flex-col gap-3">
-            <label className="font-ibm text-accent text-[14px] md:text-[16px] lg:text-[20px]">
+            {/* <label className="font-ibm text-accent text-[14px] md:text-[16px] lg:text-[20px]">
               EDUCATION
             </label>
             <p className="font-inter text-[14px] leading-relaxed md:text-[16px] lg:text-[18px]">
-              Attended CUNY Brooklyn College (2019-2023) for Multimedia
-              Computing and later studied UI/UX Design and Frontend Engineering
-              independently for 3 years.
-            </p>
+              
+            </p> */}
           </div>
           <div className="flex flex-col gap-3">
             <label className="font-ibm text-accent text-[14px] md:text-[16px] lg:text-[20px]">
